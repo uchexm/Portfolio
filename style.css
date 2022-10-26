@@ -7,23 +7,10 @@
   box-sizing: border-box;
 }
 
-.logo {
-  color: #6070ff;
-  width: 76px;
-  height: 20px;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-}
-
-.head {
-  background-image: url('../Images/header-shapes\ mobile@2x.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 718px;
+body {
   width: 375px;
-  border-radius: 10px;
-  margin: 0 auto;
+  height: 718px;
+  position: absolute;
 }
 
 nav {
@@ -33,6 +20,30 @@ nav {
   padding: 58px 24px;
   text-decoration: none;
   color: #6070ff;
+  width: 375px;
+}
+
+.logo {
+  color: #6070ff;
+  width: 76px;
+  height: 20px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-image: url('../Images/header-shapes\ mobile@2x.png');
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: 0 0;
+  height: 600px;
+  width: 375px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.container {
+  padding-top: 40px;
 }
 
 h1 {
@@ -41,7 +52,6 @@ h1 {
   line-height: 52px;
   padding: 0 24px;
   font-family: "Poppins", sans-serif;
-  margin-top: 90px;
 }
 
 p {
