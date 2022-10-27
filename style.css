@@ -41,14 +41,15 @@ nav a:hover {
 }
 
 main {
-  background-image: url('Images/header-shapes\ mobile@2x.png');
+  height: 600px;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background-image: url("images/header-shapes\ mobile.png");
   background-repeat: repeat-x;
   background-size: cover;
   background-position: 0 0;
-  height: 600px;
-  width: 375px;
-  border-radius: 10px;
-  padding-bottom: 20px;
+  visibility: visible;
 }
 
 .container {
