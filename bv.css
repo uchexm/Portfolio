@@ -197,6 +197,7 @@ li {
   justify-content: center;
   background-color: white;
 }
+
 .box {
   border: 1px solid #396df2;
   border-radius: 5px;
@@ -274,10 +275,26 @@ article {
   border-radius: 5px;
 }
 
+#css {
+  background-color: #ebebff;
+  align-content: center;
+}
+
+#jss {
+  background-color: #ebebff;
+  align-content: center;
+}
+
+#html {
+  background-color: #ebebff;
+  align-content: center;
+}
+
 #fra {
   height: 24px;
   left: 12px;
   right: 78px;
+  top: calc(50% - 24px/2);
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
