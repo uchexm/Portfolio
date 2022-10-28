@@ -3,13 +3,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
   box-sizing: border-box;
 }
 
 body {
   width: 375px;
-  height: 718px;
   margin: auto;
 }
 
@@ -37,10 +36,10 @@ nav a:hover {
   width: 76px;
   height: 20px;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
 }
 
-main {
+header {
   height: 600px;
   width: 100%;
   border-radius: 10px;
@@ -61,7 +60,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   padding: 0 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -101,4 +100,343 @@ li:hover {
 .fa:hover {
   background-color: rgb(124, 118, 83);
   transform: scale(1.5);
+}
+
+.main {
+  display: grid;
+}
+
+#first-work {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+.snap {
+  width: 295px;
+  height: 220px;
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title {
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #172b4d;
+  display: inline;
+  width: 259px;
+}
+.back-end li {
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-style: Normal;
+  font-size: 15px;
+  line-height: 16px;
+  display: inline;
+}
+
+.des {
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: -20px;
+}
+
+.card {
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin: auto;
+  text-align: center;
+}
+
+.card li {
+  border-radius: 5px;
+}
+
+#htm {
+  background-color: #ebebff;
+  width: 50px;
+  align-content: center;
+}
+
+#cs {
+  background-color: #ebebff;
+  width: 40px;
+  align-content: center;
+}
+
+#js {
+  background-color: #ebebff;
+  width: 90px;
+  align-content: center;
+}
+
+.box p {
+  color: #6070ff;
+  font-size: smaller;
+  display: inline;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#resume p {
+  color: #6070ff;
+  font-size: smaller;
+  display: inline;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#resume {
+  align-self: flex-start;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  background-color: white;
+  height: 40px;
+}
+
+.box {
+  align-self: flex-start;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#second-work {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+#third-work {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+#fourth-work {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+.skills {
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+article {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+.about h2 {
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.language {
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  display: inline;
+  height: 30px;
+  width: 300px;
+}
+
+.language li {
+  border-radius: 5px;
+}
+
+#css {
+  background-color: #ebebff;
+  width: 100%;
+  align-content: center;
+}
+
+#jss {
+  background-color: #ebebff;
+  width: 100%;
+  align-content: center;
+}
+
+#html {
+  background-color: #ebebff;
+  width: 100%;
+  align-content: center;
+}
+
+#lan {
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  border-radius: nullpx;
+}
+
+#fra {
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  border-radius: nullpx;
+  padding-bottom: 40px;
+}
+
+#sk {
+  height: 24px;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  border-radius: nullpx;
+  display: inline;
+}
+
+.contact-me {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #6070ff;
+  border: 1px solid #dfe1e6;
+  border-top-left-radius: 70px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+  background-image: url("images/contact\ form\ shapes-mobile@2x.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: right;
+}
+
+.contact-me h2 {
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: white;
+  padding-top: 70px;
+}
+
+#name {
+  width: 290px;
+  height: 30px;
+  border-radius: 6px;
+  border: #fff;
+}
+
+#email {
+  width: 290px;
+  height: 30px;
+  border-radius: 6px;
+  border: #fff;
+}
+
+#text-area {
+  width: 290px;
+  height: 170px;
+  border-radius: 6px;
+  border: #fff;
+}
+
+#submit {
+  border-radius: 6px;
+  border: white;
+  color: #6070ff;
+  height: 40px;
+  width: 100px;
+  margin-left: -180px;
+}
+
+.fa-angle-right {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
