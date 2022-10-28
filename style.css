@@ -97,11 +97,6 @@ li:hover {
   transform: scale(1.5);
 }
 
-.fa:hover {
-  background-color: rgb(124, 118, 83);
-  transform: scale(1.5);
-}
-
 .main {
   display: grid;
 }
@@ -142,9 +137,10 @@ li:hover {
   display: inline;
   width: 259px;
 }
+
 .back-end li {
   font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
-  font-style: Normal;
+  font-style: normal;
   font-size: 15px;
   line-height: 16px;
   display: inline;
@@ -204,16 +200,6 @@ li:hover {
   background-color: white;
 }
 
-#resume p {
-  color: #6070ff;
-  font-size: smaller;
-  display: inline;
-  width: 40%;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-}
-
 #resume {
   align-self: flex-start;
   border: 1px solid #396df2;
@@ -227,6 +213,8 @@ li:hover {
   border: 1px solid #396df2;
   border-radius: 5px;
   background-color: white;
+  margin-left: -130px;
+  height: 40px;
 }
 
 #second-work {
@@ -292,6 +280,10 @@ li:hover {
   border-radius: 16px;
 }
 
+.pics {
+  margin-top: 30px;
+}
+
 article {
   display: inline-flex;
   flex-direction: column;
@@ -307,15 +299,32 @@ article {
   order: 0;
   flex-grow: 0;
   margin-bottom: 40px;
+  border-top-right-radius: 70px;
 }
 
 .about h2 {
+  width: 327px;
+  height: 101px;
   font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
-  font-size: 30px;
-  font-weight: 600;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
   line-height: 52px;
-  letter-spacing: 0;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding-left: 20px;
+}
+
+.about p {
+  width: 327px;
+  height: 144px;
+  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .language {
@@ -354,6 +363,8 @@ article {
   left: 12px;
   top: 24px;
   border-radius: nullpx;
+  display: inline;
+  padding-bottom: 20px;
 }
 
 #fra {
@@ -437,6 +448,16 @@ article {
 }
 
 .fa-angle-right {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 220px;
+}
+
+.fa-angle-down {
+  padding-left: 260px;
+}
+
+.box :hover {
+  transform: scale(1.5);
+  cursor: pointer;
 }
