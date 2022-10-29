@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -16,15 +17,16 @@ body {
   width: 375px;
   justify-content: space-between;
   gap: 50px;
+  list-style: none;
+  text-decoration: none;
 }
 
-.first {
+.card {
   margin: auto;
   background-color: white;
   display: grid;
   place-items: center;
   width: 375px;
-  justify-content: space-between;
   gap: 50px;
 }
 
@@ -74,6 +76,7 @@ nav a:hover {
   background-size: cover;
   background-position: 0 0;
   visibility: visible;
+  display: inline;
 }
 
 h1 {
@@ -103,7 +106,8 @@ h3 {
   margin: 20px;
 }
 
-ul {
+
+/* ul {
   margin: 10px;
   list-style: none;
   display: flex;
@@ -115,7 +119,7 @@ li {
 
 li:hover {
   background-color: blue;
-}
+} */
 
 .cards-1 {
   padding: 16px;
@@ -124,9 +128,7 @@ li:hover {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  left: 0;
-  top: 0;
-  display: flex;
+  display: inline;
 }
 
 .cards-2 {
@@ -136,9 +138,7 @@ li:hover {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  left: 0;
-  top: 0;
-  display: flex;
+  display: inline;
 }
 
 .snap {
@@ -165,6 +165,10 @@ li:hover {
   color: #344563;
 }
 
+.back-ene # {
+  padding-right: 7px;
+}
+
 .back-end li {
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
@@ -172,7 +176,9 @@ li:hover {
   font-size: 10px;
   line-height: 16px;
   margin-left: -14px;
-  padding: 6px;
+  padding: 15px;
+  display: inline;
+  padding-right: 15px;
 }
 
 .cards-1 .des {
@@ -180,11 +186,11 @@ li:hover {
   height: 76px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 24px;
   margin-left: -24px;
-  display: flex;
+  margin-bottom: 20px;
 }
 
 .cards-2 .des {
@@ -196,6 +202,7 @@ li:hover {
   font-size: 13px;
   line-height: 24px;
   margin-left: -24px;
+  margin-bottom: 20px;
 }
 
 .code {
@@ -211,10 +218,19 @@ li:hover {
 }
 
 .code li {
-  border-radius: 5px;
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  margin-right: 31px;
 }
 
-#htm {
+/* #htm {
   background-color: #ebebff;
   width: 50px;
   align-content: center;
@@ -230,7 +246,7 @@ li:hover {
   background-color: #ebebff;
   width: 90px;
   align-content: center;
-}
+} */
 
 .box p {
   color: #6070ff;
@@ -276,18 +292,17 @@ li:hover {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-left: 20px;
+  padding-left: 12px;
 }
 
 .about p {
-  width: 327px;
-  height: 144px;
   font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-left: -80px;
 }
 
 #con {
@@ -303,20 +318,29 @@ li:hover {
 .socials {
   list-style: none;
   display: flex;
-  margin-left: -120px;
-  margin-top: -20px;
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.socials li {
+  margin-right: 10px;
 }
 
 #resume {
   color: #6070ff;
-  margin-left: -140px;
-  margin-top: -20px;
+  margin-left: -150px;
 }
 
 .language li {
   border-radius: 5px;
 }
 
+/*
 #css {
   background-color: #ebebff;
   align-content: center;
@@ -362,7 +386,7 @@ li:hover {
 }
 
 .fa-angle-right {
-  padding-left: 180px;
+  padding-left: 280px;
 }
 
 .il {
@@ -378,7 +402,7 @@ li:hover {
 
 .fa-angle-down {
   padding-left: 110px;
-}
+} */
 
 #la {
   margin-top: 30px;
@@ -405,4 +429,49 @@ li:hover {
   left: 12px;
   border-radius: 8px;
   padding-left: 30px;
+}
+
+.skills {
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-card h3 {
+  font-family: 'Poppins','Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: px;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.skill-li {
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.skill-li img {
+  padding-top: 7px;
+}
+
+#vi {
+  padding-left: 100px;
+}
+
+#un {
+  padding-left: 110px;
+}
+
+#co {
+  padding-left: 111px;
 }
