@@ -17,6 +17,15 @@ body {
   justify-content: space-between;
   gap: 50px;
 }
+.first {
+  margin: auto;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  width: 375px;
+  justify-content: space-between;
+  gap: 50px;
+}
 
 .hero {
   width: 375px;
@@ -116,6 +125,7 @@ li:hover {
   border-radius: 16px;
   left: 0;
   top: 0;
+  display: flex;
 }
 
 .cards-2 {
@@ -127,6 +137,7 @@ li:hover {
   border-radius: 16px;
   left: 0;
   top: 0;
+  display: flex;
 }
 
 .snap {
@@ -172,6 +183,7 @@ li:hover {
   font-size: 15px;
   line-height: 24px;
   margin-left: -24px;
+  display: flex;
 }
 
 .cards-2 .des {
@@ -237,19 +249,17 @@ li:hover {
   margin-top: 20px;
 }
 
-article {
-  display: inline-flex;
+.about {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 16px;
   gap: 12px;
   width: 375px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin-bottom: 40px;
   border-top-right-radius: 70px;
 }
@@ -337,7 +347,6 @@ article {
 }
 
 #sk {
-  height: 24px;
   left: 12px;
   right: 78px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
@@ -348,68 +357,15 @@ article {
   align-items: center;
   color: #000;
   padding-left: 30px;
-  padding-top: 30px;
-  display: inline-flex;
-}
-
-.contact-me {
-  padding: 16px;
-  gap: 16px;
-  width: 327px;
-  height: 552px;
-  background: #6070ff;
-  border: 1px solid #dfe1e6;
-  border-top-left-radius: 70px;
-  margin-bottom: 40px;
-  background-image: url("images/contact\ form\ shapes-mobile@2x.png");
-  background-repeat: no-repeat;
-  background-size: 150px;
-  background-position: right;
-  display: block;
-}
-
-.contact-me h2 {
-  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: center;
-  color: white;
-  padding-top: 70px;
-}
-
-#name {
-  width: 290px;
-  height: 30px;
-  border-radius: 6px;
-  border: #fff;
-}
-
-#email {
-  width: 290px;
-  height: 30px;
-  border-radius: 6px;
-  border: #fff;
-}
-
-#text-area {
-  width: 290px;
-  height: 170px;
-  border-radius: 6px;
-  border: #fff;
-}
-
-#submit {
-  border-radius: 6px;
-  border: white;
-  color: #6070ff;
-  height: 40px;
-  width: 100px;
+  display: inline-block;
 }
 
 .fa-angle-right {
-  padding-left: 200px;
+  padding-left: 180px;
+}
+.il {
+  display: inline;
+  padding: 10px;
 }
 
 .fs {
@@ -419,7 +375,7 @@ article {
 }
 
 .fa-angle-down {
-  padding-left: 130px;
+  padding-left: 110px;
 }
 
 #la {
@@ -449,14 +405,3 @@ article {
   padding-left: 30px;
 }
 
-hr {
-  height: 1px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #dfe1e6;
-  width: 327px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  padding-left: 40px;
-}
