@@ -15,7 +15,7 @@ body {
   place-items: center;
   width: 375px;
   justify-content: space-between;
-  gap: 30px;
+  gap: 50px;
 }
 
 .hero {
@@ -99,7 +99,26 @@ ul {
   display: flex;
 }
 
-.cards {
+li {
+  margin-right: 10px;
+}
+
+li:hover {
+  background-color: blue;
+}
+
+.cards-1 {
+  padding: 16px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  left: 0;
+  top: 0;
+}
+
+.cards-2 {
   padding: 16px;
   width: 327px;
   height: 552px;
@@ -117,31 +136,51 @@ ul {
   border-radius: 8px;
 }
 
-.title {
+.cards-1 .title {
   font-family: 'Poppins''Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 44px;
+  color: #344563;
+}
+
+.cards-2 .title {
+  font-family: 'Poppins''Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #344563;
 }
 
 .back-end li {
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 450;
   font-size: 10px;
   line-height: 16px;
   margin-left: -14px;
   padding: 6px;
 }
 
-#des {
+.cards-1 .des {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  line-height: 24px;
+  margin-left: -24px;
+}
+
+.cards-2 .des {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
   line-height: 24px;
   margin-left: -24px;
 }
@@ -267,6 +306,21 @@ article {
   border-radius: 5px;
 }
 
+#css {
+  background-color: #ebebff;
+  align-content: center;
+}
+
+#jss {
+  background-color: #ebebff;
+  align-content: center;
+}
+
+#html {
+  background-color: #ebebff;
+  align-content: center;
+}
+
 #fra {
   height: 24px;
   left: 12px;
@@ -293,17 +347,14 @@ article {
   line-height: 24px;
   align-items: center;
   color: #000;
-  display: inline;
   padding-left: 30px;
   padding-top: 30px;
+  display: inline-flex;
 }
 
 .contact-me {
-  display: inline;
-  flex-direction: column;
-  align-items: center;
   padding: 16px;
-  gap: 12px;
+  gap: 16px;
   width: 327px;
   height: 552px;
   background: #6070ff;
@@ -314,6 +365,7 @@ article {
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right;
+  display: block;
 }
 
 .contact-me h2 {
@@ -354,22 +406,26 @@ article {
   color: #6070ff;
   height: 40px;
   width: 100px;
-  margin-left: -180px;
 }
 
 .fa-angle-right {
   padding-left: 200px;
 }
 
+.fs {
+  display: inline;
+  width: 100px;
+  padding-left: -20px;
+}
+
 .fa-angle-down {
-  padding-left: 280px;
+  padding-left: 130px;
 }
 
 #la {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   height: 24px;
-  left: 12px;
-  right: 78px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
@@ -377,7 +433,7 @@ article {
   line-height: 24px;
   align-items: center;
   color: #000;
-  display: inline;
+  display: inline-flex;
   padding-left: 30px;
 }
 
