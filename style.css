@@ -17,6 +17,7 @@ body {
   justify-content: space-between;
   gap: 50px;
 }
+
 .first {
   margin: auto;
   background-color: white;
@@ -363,6 +364,7 @@ li:hover {
 .fa-angle-right {
   padding-left: 180px;
 }
+
 .il {
   display: inline;
   padding: 10px;
@@ -404,4 +406,3 @@ li:hover {
   border-radius: 8px;
   padding-left: 30px;
 }
-
