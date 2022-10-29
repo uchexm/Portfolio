@@ -16,8 +16,8 @@ This is a project is intended to showcase my Portfolio as a competent Web develo
 
 ## Getting Started
 
-This project can be accessed using any web broser.
-To get a local copy up and running follow these simple example steps.
+This project can be accessed using any web broser, or a phone and tablet.
+To get a local copy up and running follow these example steps.
 
 ### Prerequisites
 
