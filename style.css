@@ -76,7 +76,6 @@ nav a:hover {
   background-size: cover;
   background-position: 0 0;
   visibility: visible;
-  display: inline;
 }
 
 h1 {
@@ -106,6 +105,11 @@ h3 {
   margin: 20px;
 }
 
+#social {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+}
 
 /* ul {
   margin: 10px;
@@ -163,10 +167,6 @@ li:hover {
   font-weight: 700;
   font-size: 22px;
   color: #344563;
-}
-
-.back-ene # {
-  padding-right: 7px;
 }
 
 .back-end li {
@@ -440,7 +440,7 @@ li:hover {
 }
 
 .skill-card h3 {
-  font-family: 'Poppins','Times New Roman', Times, serif;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
