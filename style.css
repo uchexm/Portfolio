@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -23,7 +23,7 @@ body {
   height: 718px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .Toolbar-container {
   left: 0px;
@@ -36,21 +36,21 @@ body {
 .Toolbar-container a {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
- 
+
   align-items: center;
   text-align: center;
   margin-left: 24px;
-  color: #6070FF;
+  color: #6070ff;
 }
 .Toolbar-container img {
- float: right;
- margin-right: 36px;
- margin-top: 5px;
+  float: right;
+  margin-right: 36px;
+  margin-top: 5px;
 }
 .container {
   width: 375px;
@@ -70,7 +70,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   padding: 0 24px;
-  font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
+  font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
 }
 
 p {
@@ -105,16 +105,17 @@ h3 {
 .Works {
   display: grid;
   gap: 50px;
- place-items: center;
+  place-items: center;
 }
+
 .Works-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 16px;
   gap: 12px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -125,12 +126,12 @@ h3 {
 .Works-card h4 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -158,7 +159,7 @@ h3 {
   flex-grow: 0;
 }
 #Canopy {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -172,7 +173,7 @@ h3 {
 .Block P {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -201,20 +202,20 @@ h3 {
 .Tags li {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 2;
   flex-grow: 0;
   float: right;
 }
 .Tags a {
-  color: #6070FF;
+  color: #6070ff;
 }
 
 #html {
@@ -224,7 +225,7 @@ h3 {
   padding: 4px 12px;
   width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -238,7 +239,7 @@ h3 {
   padding: 4px 12px;
   width: 45px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 1;
@@ -252,7 +253,7 @@ h3 {
   padding: 4px 12px;
   width: 89px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   flex: none;
   order: 2;
@@ -272,16 +273,16 @@ h3 {
 .button-1 {
   width: 100px;
   height: 35px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   background-color: white;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -291,13 +292,13 @@ h3 {
   left: 375px;
   top: 4769px;
   border-top-right-radius: 50px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .About-myself h2 {
   width: 327px;
   height: 101px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -307,7 +308,7 @@ h3 {
   padding-bottom: 50px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -315,16 +316,16 @@ h3 {
 .button-2 {
   width: 105px;
   height: 35px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   background-color: white;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   margin-left: 24px;
   cursor: pointer;
@@ -344,10 +345,10 @@ h3 {
   height: 24px;
   left: 12px;
   right: 78px;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -355,20 +356,19 @@ h3 {
   display: flex;
   align-items: center;
   color: #000000;
-
 }
 
 #JAVASCRIPT {
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-top: 20px;
   content: "text";
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -382,14 +382,14 @@ h3 {
 #HTML {
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   padding: 10px;
   order: 0;
   flex-grow: 0;
   margin-top: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -402,14 +402,14 @@ h3 {
 #CSS {
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -435,12 +435,13 @@ h3 {
 .Contact-me {
   width: 375px;
   left: 0px;
-  background-color: #396DF2;
+  background-color: #396df2;
   border-radius: 10px;
   padding-bottom: 20px;
   background-image: url("images/background.png");
   background-repeat: repeat-x;
   background-position: 0 0;
+  margin-top: -80px;
   visibility: visible;
   background-size: 357px;
   border-top-left-radius: 50px;
@@ -451,7 +452,7 @@ h3 {
   left: -213px;
   top: 4734px;
   margin-top: 80px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -459,23 +460,23 @@ h3 {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .Contact-me p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .Details {
   height: 38px;
-  width: 316px;  
+  width: 316px;
   border-radius: 8px;
-  border: #DFE1E6;
+  border: #dfe1e6;
   margin-left: 24px;
   margin-bottom: 18px;
 }
@@ -484,34 +485,34 @@ h3 {
   height: 170px;
   width: 316px;
   border-radius: 8px;
-  border: #DFE1E6;
+  border: #dfe1e6;
   margin-left: 24px;
 }
 
 .button-3 {
   width: 105px;
   height: 35px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   background-color: white;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   margin-left: 24px;
   cursor: pointer;
 }
 ::placeholder {
   font-family: Poppins;
-font-size: 12px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-indent: 14px;
-position: absolute;
-margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-indent: 14px;
+  position: absolute;
+  margin-top: 10px;
 }

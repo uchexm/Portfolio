@@ -34,11 +34,13 @@
         </div>
     </main>
 </header>
-<section class="Works">
-  <section class="Works-card">
-    <img class="Snap" src="images/Snapshoot Portfolio.png" alt="Picture">
-    <div class="Block">
-      <h4>Tonic</h4>
+<section class="whole">
+
+  <section class="Works">
+    <section class="Works-card">
+      <img class="Snap" src="images/Snapshoot Portfolio.png" alt="Picture">
+      <div class="Block">
+        <h4>Tonic</h4>
       <ul class="Back-end">
         <li id="Canopy">CANOPY</li>
         <li><img src="images/Counter.svg" class="dev"   alt="year">Back End Dev</li>
@@ -66,9 +68,9 @@
       </ul>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
         <ul class="Tags">
-          <a href="#"><li id="html">html</li></a>
-          <a href="#"><li id="css">css</li></a>
-          <a href="#"><li id="javascript">javascript</li></a>
+          <li id="html"><a href="#">html</a></li>
+          <li id="css"><a href="#">css</a></li>
+          <li id="javascript"><a href="#">javascript</a></li>
         </ul>
         <div class="Action"><a href="">
             <button class="button-1"> See Project</button></a>
@@ -85,10 +87,10 @@
         <li><img src="images/Counter.svg" class="dev" alt="year">2015</li>
       </ul>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <ul class="Tags">
-          <a href="#"><li id="html">html</li></a>
-          <a href="#"><li id="css">css</li></a>
-          <a href="#"><li id="javascript">javascript</li></a>
+      <ul class="Tags">
+        <li id="html"><a href="#">html</a></li>
+        <li id="css"><a href="#">css</a></li>
+          <li id="javascript"><a href="#">javascript</a></li>
         </ul>
         <div class="Action"><a href="">
             <button class="button-1"> See Project</button></a>
@@ -106,9 +108,9 @@
       </ul>
       <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
         <ul class="Tags">
-          <a href="#"><li id="html">html</li></a>
-          <a href="#"><li id="css">css</li></a>
-          <a href="#"><li id="javascript">javascript</li></a>
+          <li id="html"><a href="#">html</a></li>
+          <li id="css"><a href="#">css</a></li>
+          <li id="javascript"><a href="#">javascript</a></li>
         </ul>
         <div class="Action"><a href="">
             <button class="button-1"> See Project</button></a>
@@ -143,16 +145,19 @@
         <img src="images/Separator Bottom.png" alt="icon">
       </ul>
       </section>
-      <section class="Contact-me">
-        <h3>Contact me</h3>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <input type="text" class="Details" name="name" placeholder="Uchechi">
-        <input type="text" class="Details" name="name" placeholder="nwakauc1@gmail.com">
-        <input type="text" id="Details" name="name" placeholder="Write your message here">
-        <div class="Action"><a href="#">
-          <button class="button-3">Get in touch</button></a>
+    </section>
+    <section class="Contact-me">
+      <h3>Contact me</h3>
+      <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+      <form action="#" method="post">
+        <input type="text" class="Details" name="name" placeholder="Uchechi" maxlength="30" required>
+        <input type="email" class="Details" name="name" placeholder="nwakauc1@gmail.com" required>
+        <input type="text" id="Details" name="name" placeholder="Write your message here" maxlength="500" required>
+        <div class="Action">
+          <button class="button-3" type="submit">Get in touch</button>
         </div>
-      </section>
+      </form>
+    </section>
 </section>
 
 </body>
