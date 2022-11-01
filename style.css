@@ -440,15 +440,15 @@ h3 {
   color: #253858;
 }
 
-#Pointer-1 {
+.Pointer-1 {
   padding-left: 150px;
 }
 
-#Pointer-2 {
+.Pointer-2 {
   padding-left: 147px;
 }
 
-#Pointer-3 {
+.Pointer-3 {
   padding-left: 220px;
 }
 
@@ -539,4 +539,24 @@ h3 {
   text-indent: 14px;
   position: absolute;
   margin-top: 10px;
+}
+
+.Click :hover {
+  background-color: cyan;
+  transform: scale(1.2);
+}
+
+#Get-in-touch:hover {
+  background-color: cyan;
+  transform: scale(1.2);
+}
+
+.Social-media-icons :hover {
+  background-color: cyan;
+  transform: scale(1.2);
+}
+
+.Tags li:hover {
+  background-color: rgb(25, 71, 71);
+  transform: scale(1.2);
 }
