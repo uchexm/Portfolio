@@ -465,34 +465,48 @@ h3 {
   visibility: visible;
   background-size: 200px;
   border-top-left-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  flex-wrap: nowrap;
+  justify-items: center;
 }
 
 #Me {
-  width: 801px;
-  height: 56px;
-  padding-top: 120px;
-  top: 4734px;
-  margin-top: 0;
+  align-items: center;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  width: 100%;
   color: #fff;
+  padding-top: 80px;
+  margin-top: 15px;
+  margin-right: 51px;
+  margin-bottom: 51px;
+  margin-left: 51px;
 }
 
 .Contact-me p {
-  padding-top: 10px;
-  padding-bottom: 30px;
+  order: 1;
+  margin-top: 61px;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  text-align: center;
   color: #ebebff;
+}
+
+.Click-1 {
+  margin-top: 450px;
+  float: right;
+  order: 2;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Details {
@@ -526,8 +540,9 @@ h3 {
   flex-grow: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  margin-left: 24px;
+  margin-left: 23px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 ::placeholder {
@@ -541,22 +556,38 @@ h3 {
   margin-top: 10px;
 }
 
-.Click :hover {
-  background-color: cyan;
-  transform: scale(1.2);
+button:enabled {
+  background-color: white;
 }
 
-#Get-in-touch:hover {
-  background-color: cyan;
-  transform: scale(1.2);
+button:hover {
+  background-color: rgb(58, 58, 161);
+}
+
+button:active {
+  background-color: #040929;
+}
+
+.formm {
+  margin: -428px 1px 11px 0;
 }
 
 .Social-media-icons :hover {
+  background-color: rgb(30, 31, 99);
+  transform: scale(1.2);
+}
+
+.Social-media-icons :enabled {
   background-color: cyan;
   transform: scale(1.2);
 }
 
 .Tags li:hover {
-  background-color: rgb(25, 71, 71);
+  background-color: #7f8cff;
+  transform: scale(1.2);
+}
+
+.Tags li:enabled {
+  background-color: #7f8cff;
   transform: scale(1.2);
 }
