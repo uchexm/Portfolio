@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 body {
   margin: auto;
   background-color: #e5e5e5;
@@ -18,44 +20,49 @@ body {
   list-style: none;
   text-decoration: none;
 }
+
 .header {
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  left: 0;
+  top: 0;
+  background: #fff;
+  border-bottom-left-radius: 40px;
 }
+
 .Toolbar-container {
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 375px;
   height: 48px;
 }
+
 .Toolbar-container a {
   width: 76px;
   height: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-
   align-items: center;
   text-align: center;
   margin-left: 24px;
   color: #6070ff;
 }
+
 .Toolbar-container img {
   float: right;
   margin-right: 36px;
   margin-top: 5px;
 }
+
 .container {
   width: 375px;
   height: 718px;
-  left: 0px;
+  padding-top: 70px;
   border-radius: 10px;
   padding-bottom: 20px;
   background-image: url("images/header-shapes\ mobile.png");
@@ -65,12 +72,12 @@ body {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 20px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   padding: 0 24px;
-  font-family: "Poppins", sans-serif, "Times New Roman", Times, serif;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
 }
 
 p {
@@ -102,7 +109,9 @@ h3 {
   margin: 24px;
   gap: 24px;
 }
+
 .Works {
+  margin-top: 50px;
   display: grid;
   gap: 50px;
   place-items: center;
@@ -114,7 +123,7 @@ h3 {
   align-items: center;
   padding: 16px;
   gap: 12px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
@@ -123,10 +132,11 @@ h3 {
   width: 327px;
   height: 552px;
 }
+
 .Works-card h4 {
   width: 295px;
   height: 36px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -136,11 +146,12 @@ h3 {
   order: 0;
   flex-grow: 0;
 }
+
 .Block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -148,18 +159,20 @@ h3 {
   order: 1;
   flex-grow: 0;
 }
+
 .Back-end {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
+
 #Canopy {
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -170,10 +183,10 @@ h3 {
   flex-grow: 0;
 }
 
-.Block P {
+.Block p {
   width: 295px;
   height: 76px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -189,7 +202,7 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 114px;
   height: 24px;
@@ -202,7 +215,7 @@ h3 {
 .Tags li {
   width: 29px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -214,6 +227,7 @@ h3 {
   flex-grow: 0;
   float: right;
 }
+
 .Tags a {
   color: #6070ff;
 }
@@ -259,6 +273,7 @@ h3 {
   order: 2;
   flex-grow: 0;
 }
+
 .Action {
   width: 295px;
   height: 72px;
@@ -270,10 +285,11 @@ h3 {
   order: 3;
   flex-grow: 0;
 }
+
 .button-1 {
   width: 100px;
   height: 35px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -286,19 +302,20 @@ h3 {
   border-radius: 8px;
   cursor: pointer;
 }
+
 .About-myself {
   width: 375px;
   height: 1100px;
   left: 375px;
   top: 4769px;
   border-top-right-radius: 50px;
-  background: #ffffff;
+  background: #fff;
 }
 
 .About-myself h2 {
   width: 327px;
   height: 101px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -313,10 +330,11 @@ h3 {
   order: 0;
   flex-grow: 0;
 }
+
 .button-2 {
   width: 105px;
   height: 35px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -330,6 +348,7 @@ h3 {
   margin-left: 24px;
   cursor: pointer;
 }
+
 .Skills {
   display: flex;
   flex-direction: column;
@@ -341,6 +360,7 @@ h3 {
   order: 1;
   flex-grow: 0;
 }
+
 .Skill-list {
   height: 24px;
   left: 12px;
@@ -348,14 +368,14 @@ h3 {
   top: calc(50% - 24px / 2);
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 #JAVASCRIPT {
@@ -368,7 +388,7 @@ h3 {
   flex-grow: 0;
   margin-top: 20px;
   content: "text";
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -389,7 +409,7 @@ h3 {
   order: 0;
   flex-grow: 0;
   margin-top: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -409,7 +429,7 @@ h3 {
   flex-grow: 0;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -434,25 +454,26 @@ h3 {
 
 .Contact-me {
   width: 375px;
-  left: 0px;
-  background-color: #396df2;
+  height: 750px;
   border-radius: 10px;
   padding-bottom: 20px;
-  background-image: url("images/background.png");
-  background-repeat: repeat-x;
-  background-position: 0 0;
-  margin-top: -80px;
+  background: #6070ff;
+  background-image: url("images/contactbg.png");
+  background-repeat: no-repeat;
+  background-position: 180px 20px;
+  margin-top: -98px;
   visibility: visible;
-  background-size: 357px;
+  background-size: 200px;
   border-top-left-radius: 50px;
 }
-.Contact-me h3 {
+
+#Me {
   width: 801px;
   height: 56px;
-  left: -213px;
+  padding-top: 120px;
   top: 4734px;
-  margin-top: 80px;
-  font-family: "Poppins";
+  margin-top: 0;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -460,11 +481,13 @@ h3 {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .Contact-me p {
-  font-family: "Poppins";
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -492,7 +515,7 @@ h3 {
 .button-3 {
   width: 105px;
   height: 35px;
-  font-family: "Poppins";
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -506,12 +529,13 @@ h3 {
   margin-left: 24px;
   cursor: pointer;
 }
+
 ::placeholder {
-  font-family: Poppins;
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-indent: 14px;
   position: absolute;
   margin-top: 10px;

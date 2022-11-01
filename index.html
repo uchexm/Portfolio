@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <nav class="Toolbar-container">
       <a href="#">Portfolio</a>
-      <img src="images/nav.png" alt="menu">
+      <img src="images/menu.png" alt="menu">
     </nav>
     <main class="container">
       <h1>
@@ -33,9 +33,7 @@
           </ul>
         </div>
     </main>
-</header>
-<section class="whole">
-
+  </header>
   <section class="Works">
     <section class="Works-card">
       <img class="Snap" src="images/Snapshoot Portfolio.png" alt="Picture">
@@ -52,11 +50,11 @@
           <li id="css"><a href="#">css</a></li>
           <li id="javascript"><a href="#">javascript</a></li>
         </ul>
-        <div class="Action"><a href="">
-            <button class="button-1"> See Project</button></a>
-        </div>
+        <form action="#" class="Action" target="_blank" method="get">
+            <button class="button-1" type="button"> See Project</button>
+          </form>
     </div>
-  </section>
+    </section>
   <section class="Works-card">
     <img class="Snap" src="images/avail.png" alt="Picture">
     <div class="Block">
@@ -72,9 +70,9 @@
           <li id="css"><a href="#">css</a></li>
           <li id="javascript"><a href="#">javascript</a></li>
         </ul>
-        <div class="Action"><a href="">
-            <button class="button-1"> See Project</button></a>
-        </div>
+        <form action="#" class="Action" target="_blank" method="get">
+          <button class="button-1" type="button"> See Project</button>
+        </form>
     </div>
   </section>
   <section class="Works-card">
@@ -92,9 +90,9 @@
         <li id="css"><a href="#">css</a></li>
           <li id="javascript"><a href="#">javascript</a></li>
         </ul>
-        <div class="Action"><a href="">
-            <button class="button-1"> See Project</button></a>
-        </div>
+        <form action="#" class="Action" target="_blank" method="get">
+          <button class="button-1" type="button"> See Project</button>
+        </form>
     </div>
   </section>
   <section class="Works-card">
@@ -112,9 +110,9 @@
           <li id="css"><a href="#">css</a></li>
           <li id="javascript"><a href="#">javascript</a></li>
         </ul>
-        <div class="Action"><a href="">
-            <button class="button-1"> See Project</button></a>
-        </div>
+        <form action="#" class="Action" target="_blank" method="get">
+          <button class="button-1" type="button"> See Project</button>
+        </form>
     </div>
   </section>
   <section class="About-myself">
@@ -130,9 +128,9 @@
             <li><a href="#"><img src="images/tech.png" alt="Image"></a></li>
           </ul>
         </div>
-        <div class="Action"><a href="#">
-          <button class="button-2">Get my resume</button></a>
-      </div>
+        <form action="#" class="Action" target="_blank" method="get">
+          <button class="button-2" type="button">Get my resume</button>
+        </form>
       <ul class="Skills">
         <li class="Skill-list">Languages <a href="#"><img id="Pointer-1" src="images/Union - Copy.png" alt="icon"></a>
           <li id="JAVASCRIPT"><img src="images/Ellipse 1.png" alt="icon">Javascript</li>
@@ -147,9 +145,9 @@
       </section>
     </section>
     <section class="Contact-me">
-      <h3>Contact me</h3>
+      <h3 id="Me">Contact me</h3>
       <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      <form action="#" method="post">
+      <form action="#" method="post" target="_blank">
         <input type="text" class="Details" name="name" placeholder="Uchechi" maxlength="30" required>
         <input type="email" class="Details" name="name" placeholder="nwakauc1@gmail.com" required>
         <input type="text" id="Details" name="name" placeholder="Write your message here" maxlength="500" required>
@@ -158,7 +156,5 @@
         </div>
       </form>
     </section>
-</section>
-
 </body>
 </html>
