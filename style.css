@@ -561,11 +561,13 @@ button:enabled {
 }
 
 button:hover {
-  background-color: rgb(58, 58, 161);
+  background-color: #6070ff;
+  color: #fff;
 }
 
 button:active {
-  background-color: #040929;
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .formm {
