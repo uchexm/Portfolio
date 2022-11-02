@@ -2,7 +2,7 @@
 # New-Portfolio
 
 > Description of the Project:
-This is a project is intended to showcase my Portfolio as a competent Web developer, to advertise my work and to reach potential employers.
+This project is intended to showcase my Portfolio as a competent Web developer, to advertise my work and to reach potential employers.
 
 
 ## Built With
@@ -16,12 +16,13 @@ This is a project is intended to showcase my Portfolio as a competent Web develo
 
 ## Getting Started
 
-This project can be accessed using any web broser, or a phone and tablet.
+This project can be accessed using any web browser, a phone or a tablet.
 To get a local copy up and running follow these example steps.
 
 ### Prerequisites
 
 Basic knowledge of Html and CSS.
+Git clone or Fork this Repository.
 
 
 ## Authors
