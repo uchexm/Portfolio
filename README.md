@@ -1,7 +1,6 @@
 
 # New-Portfolio
 
-> Description of the Project:
 This project is intended to showcase my Portfolio as a competent Web developer, to advertise my work and to reach potential employers.
 
 
