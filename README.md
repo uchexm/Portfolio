@@ -30,7 +30,8 @@ Git clone or Fork this Repository.
 ## Authors
 
 👤 **Author1**
-
+Get in touch with Uchechi Nwaka.
+- Email: nwakauc1@gmail.com
 - GitHub: (https://github.com/uchexm)
 - Twitter: (https://twitter.com/nwakauc)
 - LinkedIn: ( https://www.linkedin.com/in/uchechi-nwaka-79a21a75/)
