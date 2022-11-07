@@ -676,6 +676,11 @@
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
+    animation-name: rotation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
   }
 
   .Toolbar-container img {
@@ -733,9 +738,35 @@
     align-items: center;
     letter-spacing: 0.37px;
     color: #091e42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+  }
+
+  @keyframes floating {
+    0%,
+    100% {
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+      transform: translateY(0);
+    }
+
+    50% {
+      box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .Text p {
