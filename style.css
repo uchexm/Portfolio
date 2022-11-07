@@ -583,7 +583,6 @@
     line-height: 20px;
     letter-spacing: 0;
     text-indent: 14px;
-    position: absolute;
     margin-top: 10px;
   }
 
@@ -606,7 +605,6 @@
   }
 
   .Social-media-icons :hover {
-    background-color: rgb(30, 31, 99);
     transform: scale(1.2);
   }
 
