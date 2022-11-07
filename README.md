@@ -10,7 +10,10 @@ This project is intended to showcase my Portfolio as a competent Web developer, 
 - CSS
 - Figma
 
-## Live Demo (not available)
+## Live Demo 
+- https://uchexm.github.io/Portfolio/
+- title: Uchechi's homepage
+- Bookmark this to keep an eye on my project updates!
 
 
 ## Getting Started
