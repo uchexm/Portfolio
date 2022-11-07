@@ -12,8 +12,8 @@ This project is intended to showcase my Portfolio as a competent Web developer, 
 
 ## Live Demo 
 - https://uchexm.github.io/Portfolio/
-- title: Uchechi's homepage
-- Bookmark this to keep an eye on my project updates!
+- title: Uchechi Nwaka's Portfolio
+- Bookmark this page to keep an eye on my project updates!
 
 
 ## Getting Started
