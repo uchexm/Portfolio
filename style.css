@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Toolbar */
+/* Toolbar 
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -27,21 +27,47 @@ body {
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+
 }
 
-.nav-menu img {
+.toggle {
   width: 18px;
   height: 12px;
+  margin-top: 10px;
 }
 
 .nav-menu ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  display: none; /* becomes flex on desktop */
   justify-content: space-between;
-  gap: 32px;
+  gap: 52px;
+}
+
+.toggle {
+  cursor: pointer;
+}
+.toggle {
+  order: 1;
+}
+
+.toggle1 {
+  width: 18px;
+  height: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: non;
+}
+
+.nav-menu a.active {
+  display: block;
+}
+
+.toggle1.active {
+  display: block;
+}
+
+.toggle.active {
+  display: block;
 }
 
 .nav-menu a {
@@ -49,7 +75,17 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #344563;
+  color: black;
+  display: none;
+  align-items: center;
+  line-height: 90px;
+  padding-right: 100px;
+  /*position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #2230d2;
+  width: 100%;
+  height: 100vh;
 }
 
 .nav-menu a:hover {
@@ -57,6 +93,116 @@ body {
 }
 
 /* Headline */
+.nav-container {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  grid-template-columns: 0.2fr auto 1fr;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+#logo{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070FF;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: auto;
+  list-style: none;
+  width: 100%;
+  height: 100vh;
+  justify-self: end;
+  margin: 0;
+  position: absolute;
+  top: 80px;
+  left: -100%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.menuItem {
+  color: white;
+  text-decoration: none;
+}
+.menuItem:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background: #6070FF;
+}
+ .nav-menu.active {
+  background: #6070FF;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  backdrop-filter: blur(7px);
+
+ }
+ .desktop-menu {
+  display: none;
+ }
+
+ .menuItem {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+ }
+
+ .menuItem:hover {
+  color: white;
+  transition: all 0.4s ease-out;
+ }
+
+ #mobile-menu {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  transform: translate(5%, 20%);
+ }
+ .menu-toggle .bar {
+  display: block;
+  cursor: pointer;
+ }
+ .menu-toggle:hover{
+  cursor: pointer;
+ }
+
+ #mobile-menu.is-active .bar:nth-child(2) {
+  opacity: 0;
+ }
+
+ #mobile-menu.is-active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+ }
+
+ #mobile-menu.is-active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+ }
+
 .headline {
   background-color: #fff;
   background-image: url("img/header-bg-mobile.png");
@@ -80,7 +226,7 @@ body {
   margin-top: 0;
 }
 
-.headline h1 span {
+/*.headline h1 span {
   position: relative;
   display: inline-block;
   animation-name: bounce;
@@ -112,7 +258,7 @@ body {
 
 .headline h1 span:nth-child(8) {
   animation-delay: 1.6s;
-}
+}*/
 
 @keyframes bounce {
   0%,
@@ -469,15 +615,31 @@ textarea::placeholder {
 /* Desktop version  */
 @media (min-width: 768px) {
   /* Remove hamburger and display nav links */
-  .nav-menu img {
+  .menu-toggle {
     display: none;
   }
 
-  .nav-menu ul {
+  /*.nav-menu {
     display: flex;
+    list-style: none;
+    margin: 0;
+    top: 80px;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
+  
 
   /* Change headline */
+  .desktop-menu {
+    position: absolute;
+    display: flex;
+    right: 24px;
+    list-style: none;
+    gap: 30px;
+   text-decoration: none;
+    color: #344563;
+  }
+
   .headline {
     background-image: url("img/header-bg-desktop.png");
     padding: 0 20% 0 20%; /* Exact padding on template is too much for medium screen */
@@ -583,4 +745,20 @@ textarea::placeholder {
   .contact-form li {
     justify-content: center;
   }
+}
+
+/*.menu-toggle .bar {
+  transition: all 0.3s ease-in-out;
+}
+
+#mobile-menu.is-active .bar:nth-child(2) {
+opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
