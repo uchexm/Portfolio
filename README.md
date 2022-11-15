@@ -24,7 +24,7 @@ To get a local copy up and running follow these example steps.
 ### Prerequisites
 
 Basic knowledge of Html and CSS.
-Git clone or Fork this Repository.
+Git clone or Fork this Repository...
 
 
 ## Authors
