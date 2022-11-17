@@ -4,372 +4,257 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Uchechi Nwaka</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
+
   <body>
-    <header class="nav-container">
-      <div class="mobile-menu-container">
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-         </div>
-        <ul class="nav-menu">
-            <li><a class="menuItem" href="#portfolio">Portfolio</a></li>
-            <li><a class="menuItem" href="#about">About</a></li>
-            <li><a class="menuItem" href="#contact">Contact</a></li>
-          </ul>
-       </div>
-      <nav class="navbar">
-         <h1 id="logo">UCHECHI NWAKA</h1>
-         <ul class="desktop-menu">
-          <li><a class="menuItem1" href="#portfolio">Portfolio</a></li>
-          <li><a class="menuItem1" href="#about">About</a></li>
-          <li><a class="menuItem1" href="#contact">Contact</a></li>
+    <header class="header">
+      <nav class="header_nav">
+        <div class="header_logo blue">
+          <a class="blue" href="#">Uchechi's Portfolio</a>
+        </div>
+        <div class="header_menu">
+          <img class="menu_icon" src="./images/menu-icon.svg" alt="menu" />
+        </div>
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a class="nav_item_action" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_item_action" href="#about">About</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav_item_action" href="#contact">Contact</a>
+          </li>
         </ul>
-       </nav>
-    </header>
-    <!--<header class="toolbar">
-      <a href="#" class="logo">Uchechi Nwaka</a>
-      <nav class="nav-menu menu">
-        <ul class="nav-links">
-          <li><a href="#"><img class="item toggle1" src="img/icons/cross.png" alt="cross-menu" /></a></li>
-          <li class="item"><a href="#portfolio">Portfolio</a></li>
-          <li class="item"><a href="#about">About</a></li>
-          <li class="item"><a href="#contact">Contact</a></li>
-          <li class="toggle"><span class="bars"></span></li>
+        <ul class="mobile_nav_items">
+          <span class="toggle-cross"><img src="./images/cross-icon-white.png" alt="X" /></span>
+          <li class="nav_item">
+            <a id="m_nav" class="nav_item_action" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav_item">
+            <a id="m_nav" class="nav_item_action" href="#about">About</a>
+          </li>
+          <li class="nav_item">
+            <a id="m_nav" class="nav_item_action" href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
-      <img class="toggle" src="img/icons/hamburger.png" alt="hamburger-menu" />
-    </header>-->
-    <section class="headline">
-      <h1>
-        <span>I'm</span> <span>Uchechi</span> <span>Nwaka</span><br /><span
-          >Glad</span
-        >
-        <span>to</span> <span>see</span> <span>you!</span>
-      </h1>
-      <p>
-        I'm a software developer! I can help you build a product, a feature or a
-        website. Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hestiate to contact me.
-      </p>
-      <h4 class="blue-title">LET'S CONNECT</h4>
-      <ul class="media-bar">
-        <li>
-          <a href="https://twitter.com/nwakauc">
-            <img
-              src="img/icons/twitter.png"
-              alt="twitter"
-              class="social-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/uchechi-nwaka-79a21a75/">
-            <img
-              src="img/icons/linkedin.png"
-              alt="linked-in"
-              class="social-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="img/icons/medium.png" alt="medium" class="social-icon" />
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/uchexm">
-            <img src="img/icons/github.png" alt="github" class="social-icon" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="img/icons/angellist.png"
-              alt="angellist"
-              class="social-icon"
-            />
-          </a>
-        </li>
-      </ul>
-    </section>
-    <section class="works-page" id="portfolio">
-      <section class="work-card">
-        <img
-          src="img/work-snapshot00.png"
-          alt="Webpage-snapshot"
-          class="work-snapshot"
-        />
-        <article class="work-detail">
-          <h2>Tonic</h2>
-          <ul class="work-info">
-            <li class="author">CANOPY</li>
-            <li><span class="circle"></span></li>
-            <li>Front End Dev</li>
-            <li><span class="circle"></span></li>
-            <li>2020</li>
-          </ul>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+    </header>
+    <main class="main_container">
+      <section class="headline">
+        <div class="headline_container">
+          <h1 class="headline_title">
+            I’m Uchechi Nwaka<br />
+            Glad to see you!
+          </h1>
+          <p class="headline_content">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
           </p>
-          <ul class="work-tags">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <button class="btn see-project-btn" type="button">See Project</button>
-        </article>
+          <div class="headline_social">
+            <h3 class="social_title blue">LET’S CONNECT</h3>
+            <ul class="social_links">
+              <li class="social_link">
+                <a href="https://twitter.com/nwakauc"
+                  ><img
+                    class="social_icon"
+                    src="./images/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+              <li class="social_link">
+                <a href="https://www.linkedin.com/in/uchechi-nwaka-79a21a75/"
+                  ><img
+                    class="social_icon"
+                    src="./images/linkedin-icon.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="social_link">
+                <a href="mailto:nwakauc1@gmail.com"
+                  ><img class="social_icon" src="./images/m.svg" alt="M"
+                /></a>
+              </li>
+              <li class="social_link">
+                <a href="https://github.com/uchexm"
+                  ><img
+                    class="social_icon"
+                    src="./images/github.svg"
+                    alt="Github"
+                /></a>
+              </li>
+              <li class="social_link">
+                <a href="#"
+                  ><img class="social_icon" src="./images/doit.svg" alt="Diot"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      <section class="work-card">
-        <img
-          src="img/work-snapshot01.png"
-          alt="Webpage-snapshot"
-          class="work-snapshot"
-        />
-        <article class="work-detail">
-          <h2>Tonic</h2>
-          <ul class="work-info">
-            <li class="author">CANOPY</li>
-            <li><span class="circle"></span></li>
-            <li>Front End Dev</li>
-            <li><span class="circle"></span></li>
-            <li>2021</li>
-          </ul>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+
+      <!-- Work section -->
+      <section class="work" id="portfolio">
+      </section>
+      <!-- end of work section-->
+
+      <section class="about" id="about">
+        <div class="about-myself">
+          <h2 class="headline_title">About Myself</h2>
+          <p class="about_details">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
-          <ul class="work-tags">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <button class="btn see-project-btn" type="button">See Project</button>
-        </article>
-      </section>
-      <section class="work-card">
-        <img
-          src="img/work-snapshot02.png"
-          alt="Webpage-snapshot"
-          class="work-snapshot"
-        />
-        <article class="work-detail">
-          <h2>Tonic</h2>
-          <ul class="work-info">
-            <li class="author">CANOPY</li>
-            <li><span class="circle"></span></li>
-            <li>Front End Dev</li>
-            <li><span class="circle"></span></li>
-            <li>2022</li>
-          </ul>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="work-tags">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <button class="btn see-project-btn" type="button">See Project</button>
-        </article>
-      </section>
-      <section class="work-card">
-        <img
-          src="img/work-snapshot03.png"
-          alt="Webpage-snapshot"
-          class="work-snapshot"
-        />
-        <article class="work-detail">
-          <h2>Tonic</h2>
-          <ul class="work-info">
-            <li class="author">CANOPY</li>
-            <li><span class="circle"></span></li>
-            <li>Front End Dev</li>
-            <li><span class="circle"></span></li>
-            <li>2022</li>
-          </ul>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="work-tags">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <button class="btn see-project-btn" type="button">See Project</button>
-        </article>
-      </section>
-    </section>
-    <section class="about-page" id="about">
-      <article class="about-detail">
-        <h2>About Myself</h2>
-        <p>
-          Hello I'm a software developer! I can help you build a product ,
-          feature or website. Look through some of my work and experience! If
-          you like what you see and have a project you need, don't hesitate to
-          contact me.
-        </p>
-        <h4 class="blue-title">LET'S CONNECT</h4>
-        <ul class="media-bar">
-          <li>
-            <a href="https://github.com/uchexm">
-              <img
-                src="img/icons/github.png"
-                alt="github"
-                class="social-icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/uchechi-nwaka-79a21a75/">
-              <img
-                src="img/icons/linkedin.png"
-                alt="linked-in"
-                class="social-icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="img/icons/angellist.png"
-                alt="angellist"
-                class="social-icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Nwakauc">
-              <img
-                src="img/icons/twitter.png"
-                alt="twitter"
-                class="social-icon"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="img/icons/medium.png"
-                alt="medium"
-                class="social-icon"
-              />
-            </a>
-          </li>
-        </ul>
-        <button class="btn get-resume-btn" type="button">Get my resume</button>
-      </article>
-      <ul class="skill-list">
-        <li class="skill open">
-          <header>
-            <h3>Languages</h3>
-            <img
-              src="img/icons/r-arrow.png"
-              alt="arrow"
-              class="arrow down-arrow"
-            />
-          </header>
-          <ul class="lang-container">
-            <li class="language">
-              <img
-                src="img/icons/js-logo.png"
-                alt="javascript-logo"
-                class="lang-logo"
-              />
-              <p>JavaScript</p>
+          <h3 class="social_title blue">LET’S CONNECT</h3>
+          <ul class="social_links">
+            <li class="social_link">
+              <a href="https://twitter.com/nwakauc"
+                ><img
+                  class="social_icon"
+                  src="./images/twitter.svg"
+                  alt="Twitter"
+              /></a>
             </li>
-            <li class="language">
-              <img
-                src="img/icons/html-logo.png"
-                alt="html-logo"
-                class="lang-logo"
-              />
-              <p>HTML</p>
+            <li class="social_link">
+              <a href="https://www.linkedin.com/in/uchechi-nwaka-79a21a75/"
+                ><img
+                  class="social_icon"
+                  src="./images/linkedin-icon.svg"
+                  alt="Linkedin"
+              /></a>
             </li>
-            <li class="language">
-              <img
-                src="img/icons/css-logo.png"
-                alt="css-logo"
-                class="lang-logo"
-              />
-              <p>CSS</p>
+            <li class="social_link">
+              <a href="#"
+                ><img class="social_icon" src="./images/m.svg" alt="M"
+              /></a>
+            </li>
+            <li class="social_link">
+              <a href="https://github.com/uchexm"
+                ><img
+                  class="social_icon"
+                  src="./images/github.svg"
+                  alt="Github"
+              /></a>
+            </li>
+            <li class="social_link">
+              <a href="#"
+                ><img class="social_icon" src="./images/doit.svg" alt="Diot"
+              /></a>
             </li>
           </ul>
-        </li>
-        <li class="skill">
-          <header>
-            <h3>Frameworks</h3>
-            <img src="img/icons/r-arrow.png" alt="arrow" class="arrow" />
-          </header>
-        </li>
-        <li class="skill">
-          <header>
-            <h3>Skills</h3>
-            <img src="img/icons/r-arrow.png" alt="arrow" class="arrow" />
-          </header>
-        </li>
-      </ul>
-    </section>
-    <section class="contact-page" id="contact">
-      <form
-        class="contact-form"
-        action="https://formspree.io/f/xoqbpaae"
-        method="post"
-      >
-        <h2>Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need to build or a project that needs coding, I'd love to
-          help with it.
-        </p>
-        <ul>
-          <li>
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              maxlength="30"
-              required
-            />
-          </li>
-          <li>
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email Address"
-              required
-            />
-          </li>
-          <li>
-            <textarea
-              name="message"
-              cols="30"
-              rows="5"
-              placeholder="Your Message Here..."
-              maxlength="500"
-              required
-            ></textarea>
-          </li>
-          <li>
-            <button class="btn contact-btn" type="submit">Get in touch</button>
-          </li>
-        </ul>
-      </form>
-    </section>
-    <script src="app.js"></script>
+          <div class="action">
+            <a href="#" class="atn_btn">Get my resume</a>
+          </div>
+        </div>
+        <div class="about-framework">
+          <ul class="about_ul">
+            <h3 class="sub_title">
+              Languages
+              <img
+                class="down_arrow_icon"
+                src="./images/down-arrow-icon.png"
+                alt="down"
+              />
+            </h3>
+            <div class="frame_work_items">
+              <li class="ul_item">
+                <img src="./images/js-icon.png" alt="Javascript" /><span
+                  >Javascript</span
+                >
+              </li>
+              <li class="ul_item">
+                <img src="./images/html-icon.png" alt="HTML" /><span>HTML</span>
+              </li>
+              <li class="ul_item">
+                <img src="./images/css-icon.png" alt="CSS" /><span>CSS</span>
+              </li>
+            </div>
+          </ul>
+          <ul class="about_ul">
+            <h3 class="sub_title">
+              Frameworks
+              <img
+                class="arrow_icon"
+                src="./images/right-arrow-icon.png"
+                alt="down"
+              />
+            </h3>
+          </ul>
+          <ul class="about_ul">
+            <h3 class="sub_title">
+              Skills
+              <img
+                class="arrow_icon"
+                src="./images/right-arrow-icon.png"
+                alt="down"
+              />
+            </h3>
+          </ul>
+        </div>
+      </section>
+
+      <!--contact form section-->
+      <section class="contact_form" id="contact">
+        <div class="contact_container">
+          <h2 class="title">Contact me</h2>
+          <p class="contact_form_des">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form
+            class="form_container"
+            id="contact-form"
+            method="POST"
+            action="https://formspree.io/forms/mqkjgawz"
+          >
+            <fieldset class="form_inputs">
+              <input
+                class="form_input"
+                name="name"
+                id="name"
+                type="text"
+                placeholder="Your Name"
+                maxlength="30"
+                required
+              />
+              <input
+                class="form_input"
+                name="email"
+                id="email"
+                type="email"
+                placeholder="nwakauc1@gmail.com"
+                required
+              />
+              <textarea
+                class="form_text_area"
+                name="message"
+                id="message"
+                placeholder="Write your message here"
+                maxlength="500"
+                required
+              ></textarea>
+              <small id="form-info"></small>
+              <button type="submit" class="btn_submit">Get It Touch</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
   </body>
 </html>
