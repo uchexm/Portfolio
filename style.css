@@ -713,10 +713,6 @@ a:hover {
   }
 }
 
-
-
-
-
 /* Floating shapes */
 .float-anim {
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
@@ -758,7 +754,6 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-
 
 .shape.blue-circle {
   top: 15%;
