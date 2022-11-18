@@ -272,6 +272,7 @@ function loadLocalStorage() {
   }
 }
 
+
 // OnChange function will store form data in localStorage
 function onChange(e) {
   let formData = JSON.parse(localStorage.getItem('formData'));
