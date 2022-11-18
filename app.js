@@ -323,7 +323,7 @@ const formInfo = document.getElementById('form-info');
 inputEmail.addEventListener('change', () => {
   inputEmail.classList.remove('invalid');
   formInfo.classList.remove('error');
-  formInfo.innerText = '';
+  formInfo.innerText = 'ghddhj';
 }
 );
 
