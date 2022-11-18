@@ -40,8 +40,8 @@ const projectData = [
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: './images/portfolio-1.png',
     projectDetails: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://github.com/uchexm/Portfolio',
+    sourceLink: 'https://github.com/uchexm/Portfolio',
   },
   {
     id: 'project2',
@@ -51,8 +51,8 @@ const projectData = [
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: './images/portfolio-2.png',
     projectDetails: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://github.com/uchexm/Portfolio',
+    sourceLink: 'https://github.com/uchexm/Portfolio',
   },
   {
     id: 'project3',
@@ -62,8 +62,8 @@ const projectData = [
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: './images/portfolio-3.png',
     projectDetails: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://github.com/uchexm/Portfolio',
+    sourceLink: 'https://github.com/uchexm/Portfolio',
   },
   {
     id: 'project4',
@@ -73,8 +73,8 @@ const projectData = [
     tags: ['HTML', 'CSS', 'Javascript'],
     imageUrl: './images/portfolio-4.png',
     projectDetails: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://github.com/uchexm/Portfolio',
+    sourceLink: 'https://github.com/uchexm/Portfolio',
   },
 ]; // End of portfolio data
 
@@ -262,39 +262,11 @@ const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
 
-// Store formData in localStorage
-function loadLocalStorage() {
-  const formData = JSON.parse(window.localStorage.getItem('formData'));
-  if (formData) {
-    nameInput.value = formData.name;
-    emailInput.value = formData.email;
-    messageInput.value = formData.message;
-  }
-}
-
-// OnChange function will store form data in localStorage
-function onChange(e) {
-  let formData = JSON.parse(localStorage.getItem('formData'));
-  if (!formData) {
-    formData = {};
-  }
-  // saving form data on localStorage
-  const m = e.target.name;
-  formData[m] = e.target.value;
-  formData = JSON.stringify(formData);
-  window.localStorage.setItem('formData', formData);
-}
 
 // Fire event on form input
 nameInput.addEventListener('change', onChange);
 emailInput.addEventListener('change', onChange);
 messageInput.addEventListener('change', onChange);
-
-// Load Data in dom on the fly
-window.onload = () => {
-  fetchAllProject();
-  loadLocalStorage();
-};
 
 function onSubmit(e) {
   const inputEmail = document.getElementById('email');
@@ -324,5 +296,32 @@ inputEmail.addEventListener('change', () => {
   formInfo.innerText = '';
 });
 
+// Load Data in dom on the fly
+window.onload = () => {
+  fetchAllProject();
+  loadLocalStorage();
+};
 
+// Store formData in localStorage
+function loadLocalStorage() {
+  const formData = JSON.parse(window.localStorage.getItem('formData'));
+  if (formData) {
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
+}
+
+// OnChange function will store form data in localStorage
+function onChange(e) {
+  let formData = JSON.parse(localStorage.getItem('formData'));
+  if (!formData) {
+    formData = {};
+  }
+  // saving form data on localStorage
+  const m = e.target.name;
+  formData[m] = e.target.value;
+  formData = JSON.stringify(formData);
+  window.localStorage.setItem('formData', formData);
+}
 
