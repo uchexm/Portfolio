@@ -263,14 +263,7 @@ const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
 
 // Store formData in localStorage
-function loadLocalStorage() {
-  const formData = JSON.parse(window.localStorage.getItem('formData'));
-  if (formData) {
-    nameInput.value = formData.name;
-    emailInput.value = formData.email;
-    messageInput.value = formData.message;
-  }
-}
+
 
 // OnChange function will store form data in localStorage
 function onChange(e) {
