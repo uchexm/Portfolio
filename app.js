@@ -311,7 +311,7 @@ function onSubmit(e) {
     formInfo.innerText = 'Error form is not sent! The Email should be in lower case!!';
   } else {
     inputEmail.classList.remove('invalid');
-    formInfo.classList.remove('error';
+    formInfo.classList.remove('error');
   }
 }
 const contactForm = document.getElementById('contact-form');
